@@ -1,6 +1,6 @@
 import { autorun, observable, action } from 'mobx';
 
-class CounterStore {
+export class CounterStore {
   todos = observable([]);
 
   add = action(value => {

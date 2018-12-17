@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dankreiger/small-react-mobx-example.svg?branch=master)](https://travis-ci.org/dankreiger/small-react-mobx-example)
+
 ### React Mobx Examples
 
 Note: this is made with [create react app](https://github.com/facebook/create-react-app)

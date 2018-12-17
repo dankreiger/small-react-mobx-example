@@ -22,13 +22,18 @@ class Counter extends Component {
           {CounterStore.todos.map((todo, index) => (
             <CounterTodoItem
               key={index}
+              className="puppy"
               // onClick={() => CounterStore.remove(todo)}
             >
               {todo}
             </CounterTodoItem>
           ))}
         </div>
-        <input onChange={this.handleInputChange} value={inputValue} />
+        <input
+          onChange={this.handleInputChange}
+          value={inputValue}
+          type="text"
+        />
         <button onClick={() => CounterStore.add(inputValue)}>+</button>
       </CounterContainer>
     );
