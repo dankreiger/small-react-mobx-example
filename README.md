@@ -2,6 +2,8 @@
 
 ### React Mobx Examples
 
+TODO: change the names of the `Counter` component and `CounterStore` since they make no sense
+
 Note: this is made with [create react app](https://github.com/facebook/create-react-app)
 
 ---
